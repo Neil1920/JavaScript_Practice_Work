@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+ <form id="myForm">
+    <label for="name">Name</label>
+    <button type="button" onclick="getInput">Submit</button>
+ </form>
+
+ <script>
+    function getInput(){
+        const name = document.getElementById("name").value;
+        document.write("Entered Value:-> "+name);
+        alert("You Have Entered:--> "+name);
+    }
+ </script>
+</body>
+</html>

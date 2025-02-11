@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner HTML</title>
+</head>
+<body>
+    <div id="example">This The original content</div>
+
+    <script>
+        //-->Access the element
+        const div = document.getElementById("example"); 
+
+        //-->Replace its content
+        div.innerHTML = "This Is The <strong> New Content </strong> Adding Using InnerHTML";
+
+    </script>
+</body>
+</html>

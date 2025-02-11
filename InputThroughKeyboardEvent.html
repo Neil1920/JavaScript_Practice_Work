@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="textInput" placeholder="Start typing....">
+    <p id="output"></p>
+
+    <script>
+        var inputField = document.getElementById("textInput");
+        var output = document.getElementById("output");
+
+        inputField.addEventListener("input",function(event){
+            output.textContent = "You Typed:--> "+event.target.value;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Using Prompt</title>
+    <style>
+        #msg1 {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+        color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Using the prompt to input the data in JavaScript </h2>
+    <div id="msg" style="font-family: Arial, sans-serif; font-weight: bold; font-style: italic; font-size: 20px; color: blue;"></div>
+    <div id="msg1"></div>
+
+<script>
+// input using prompt
+let userName = prompt("What is your name?");
+console.log(`Hello, ${userName}!`); // output of console
+// display on page
+document.write(`Hello, ${userName}!`);
+document.getElementById("msg").innerHTML = `Hello, ${userName}!`;
+document.getElementById("msg1").innerHTML = `Hello, ${userName}!`;
+</script>
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="userInput" placeholder="Type Something Here...">
+    <button id="submitButton">Submit</button>
+
+    <script>
+        var inputField = document.getElementById("userInput");
+        var button = document.getElementById("submitButton");
+
+        button.addEventListener("click", function() {
+            var input = inputField.value;
+            alert("You Entered:- "+input);
+        });
+    </script>
+</body>
+</html>
